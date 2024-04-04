@@ -1,0 +1,125 @@
+*{
+    /* padding:0; */
+    /* margin:0; */
+    box-sizing:border-box;
+    /* width=border(l&r)+content+padding; */
+}
+
+/* .parent{
+    background-color: rgb(70, 86, 8);
+    padding:16px;
+    margin: 16px;
+    border: 1px solid rgb(110, 102, 102);
+    box-sizing: border-box;
+}
+
+#heading{
+    background-color: blue;
+    padding:16px;
+    margin: 16px;
+    border: 1px solid grey;
+}
+.heading-one{
+    background-color: bisque;
+    margin: 16px;
+    border: 25%;
+}
+#span{
+    border-color: black;
+    background-color: aquamarine;
+    display: block;
+    text-align: center;
+}
+#parent{
+    background-color: antiquewhite;
+}
+#child{
+     font-size: 2em;
+}
+.btn{
+    display:block;
+    padding:16px;
+    border-radius: 8px;
+    border: none;
+    margin:10px auto;
+    font-size:16px;
+    width:8em;
+}
+.btn-small{
+    font-size: 10px;
+} */
+/* body{
+    height: 50vh;
+    width:50vw;
+    background-color: rgb(62, 133, 109);
+}
+
+.parent{
+    height: 100px;
+    background-color: aquamarine;
+}
+.child{
+    width:50%;
+    min-height:200px;
+    background-color: beige;
+    overflow:scroll;
+} */
+/* .child{
+    padding:10px 32px;
+}
+.parent{
+    ol{
+        background-color: blueviolet;
+    }
+    ul:first-child{ 
+        background-color: cadetblue;   
+    }
+    ul:last-child{
+        background-color: aqua;
+        li:nth-child(2){
+            background-color: yellow;
+        }
+        li:nth-child(1){
+            background-color: red;
+        }
+    }
+} */
+/* .parent ul{
+    background-color: aqua;
+}
+.parent>ul{
+    background-color: greenyellow;
+}
+.parent+ul{
+    background-color: brown;
+} */
+.parent{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.parent1{
+      justify-content: flex-start;
+}
+.parent2{
+    justify-content: space-around;
+}
+.parent3{
+    justify-content: space-between;
+}
+.child{
+    background-color: aquamarine;
+    border: 1px solid red;
+    /* display: inline; */
+    flex-basis:40px;
+    /* flex-shrink: 0; */
+}
+/* .search-box{
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+.cart{
+    flex-grow: 1;
+} */
