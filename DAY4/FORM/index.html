@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling</title>
+</head>
+<body>
+    <div onkeyup="firstNameChange(event)">
+        <form style="background-color: rgb(229, 109, 76)" onsubmit="SubmitForm(event)">
+            <label for="firstName">FirstName: </label><br>
+            <input type="text" name="FirstName" placeholder="first name"><br>
+            <label for="lastName">LastName: </label><br>
+            <input type="text" name="LastName" placeholder="last name"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" placeholder="age"><br>
+            <label for="hobbies">Hobbies:</label><br>
+            <label><input type="checkbox" name="Hobbies" values="WebD">WebD</label><br>
+            <label><input type="checkbox" name="Hobbies" values="Sports">Sports</label><br>
+            <label><input type="checkbox" name="Hobbies" values="Drawing">Drawing</label><br>
+            <br><button>Submit</button>
+            <script src="./script.js"></script>
+        </form>
+    </div>
+</body>
+</html>
