@@ -1,15 +1,15 @@
 {
-  "dependencies": {
-    "figlet": "^1.7.0"
-  },
-  "name": "mern",
+  "name": "training",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Abhijeet Singh",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  }
 }
